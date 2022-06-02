@@ -20,3 +20,4 @@ System.out.println(a+b);
 
 }
 
+// javac -d . Add.java
