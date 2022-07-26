@@ -22,3 +22,4 @@ class AbstractClass {
     myPig.sleep();
   }
 }
+

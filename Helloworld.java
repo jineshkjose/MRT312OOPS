@@ -1,9 +1,16 @@
-//java file name 
+// A Hello World Applet
+// Save file as HelloWorld.java
 
-class Helloworld {
-    public static void main(String[] args) {
-        System.out.println("Hello, World!"); 
-    }
+import java.applet.Applet;
+import java.awt.Graphics;
+
+// HelloWorld class extends Applet
+public class Helloworld extends Applet
+{
+	
+	public void paint(Graphics g)
+	{
+		g.drawString("Hello World", 20, 20);
+	}
+	
 }
-
-// simple code 
